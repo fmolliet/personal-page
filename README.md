@@ -1,4 +1,4 @@
-# personal-page
+# Página Pessoal do GitHub Pages
 Página pessoal do desafio 2020, desenvolvido em ReactJS + NextJS
 ### Requisitos:
 `yarn/npm install` 
