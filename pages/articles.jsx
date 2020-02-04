@@ -15,6 +15,11 @@ const Articles = () => {
             id: 2,
             title: 'MultiCloud System',
             techs: ['Node', 'AWS', 'Azure']
+        },
+        {
+            id: 3,
+            title: 'ReactJS com NextJS',
+            techs: ['React', 'Next', 'Node']
         }
     ];
 
