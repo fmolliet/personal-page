@@ -1,0 +1,40 @@
+.menu {
+    display: flex;
+    flex-direction: initial;
+    width: 100%;
+    background: #c5c5c5;
+    border-radius: 5px;
+    width: 100%;
+    font-family: Roboto, sans-serif;
+}
+
+a {
+    display: contents;
+    text-decoration: none;
+    text-decoration-style: none;
+}
+
+.buttom {
+    color: #575757;
+
+}
+
+.buttom:hover {
+    color: #2626ff;
+    transition: 0.5;
+}
+
+li {
+    list-style-type: none;
+    margin: 5px 10px;
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+.titulo {
+    margin: 20px 20px;
+}
+
+.options {
+    padding-left: 20px;
+}

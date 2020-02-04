@@ -1,0 +1,10 @@
+.artigo {
+    width: 300px;
+    
+    background: #e7e7e7;
+    
+    min-height: 75px;
+    display: block;
+    margin: 5px;
+    padding: 5px 15px; 
+}
