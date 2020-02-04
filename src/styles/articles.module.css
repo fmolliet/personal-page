@@ -1,0 +1,7 @@
+.texto {
+    display: flex;
+    flex-direction: initial;
+    align-items: initial;
+    margin: 10px 20px;
+    flex-wrap: wrap;
+}
