@@ -2,7 +2,6 @@ import React from 'react';
 import HeaderMenu from '../src/components/HeaderMenu';
 import styles from '../src/styles/articles.module.css';
 import Article from '../src/components/Articles';
-//{artigos.map(artigo => {})}
 
 const Articles = () => {
     const artigos = [
