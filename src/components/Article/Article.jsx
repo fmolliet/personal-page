@@ -4,10 +4,10 @@ import style from './article.module.css';
 const Article = ( { artigo } ) => {
 
     return (
-        <a href="">
+       
         <div key={artigo.id} className={style.artigo}>
-            <h3 className="artigo-titulo">{artigo.title}</h3>
-            <p className="description">Techs:</p>
+             <a href={artigo.url}><h3 className="artigo-titulo">{artigo.title}</h3></a>
+            <h5 className="description">Techs:</h5>
             <p className="techs">
                 { artigo.techs.map( tech => (
                     <>
@@ -19,7 +19,7 @@ const Article = ( { artigo } ) => {
                 
             </p>
         </div>
-        </a>
+       
     );
 }
 

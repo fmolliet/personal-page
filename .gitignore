@@ -3,3 +3,4 @@ node_modules/
 env.config.js
 .env.testing
 next.config.js
+.next

@@ -1,28 +1,38 @@
-.menu {
-    display: flex;
-    flex-direction: initial;
-    width: 100%;
-    background: #c5c5c5;
-    border-radius: 5px;
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
 
-    min-width: 700px;
-    font-family: Roboto, sans-serif;
+/* CONFIGURAÇÃO PARA TIRAR VALORES PADRAO*/
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
 }
+
+html, body {
+  height: 100%;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+}
+
+/* CONFIGURAÇÃO PARA TIRAR VALORES PADRAO*/
+
+body, input, button {
+  font-family: Roboto, sans-serif;
+}
+
 
 a {
     display: contents;
     text-decoration: none;
     text-decoration-style: none;
+    color: inherit;
 }
 
-.buttom {
-    color: #575757;
-
-}
-
-.buttom:hover {
-    color: #2626ff;
-    transition: 0.5;
+a:hover {
+    color: #75d;
+    transition: 0.3s;
 }
 
 li {
@@ -32,10 +42,3 @@ li {
     display: inline-block;
 }
 
-.titulo {
-    margin: 20px 20px;
-}
-
-.options {
-    padding-left: 20px;
-}

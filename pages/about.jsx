@@ -14,8 +14,18 @@ const About = () =>{
         <>
         <HeaderMenu />
         A sobre eu:
+        <div className="aboutme">
+
+        </div>
         <br />
+        <div className="aboutskills">
             <SkillBar skill={skill} />
+        </div>
+        
+        <div className="aboutformation">
+
+        </div>
+            
         </>
     );
 }
