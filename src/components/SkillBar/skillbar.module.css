@@ -1,0 +1,17 @@
+.progressbar { 
+    border-radius: 5px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.bar {
+    background: rgba(0,0,0,0.075);
+}
+
+.progress {
+    animation: loader 8s ease infinite;
+    background: #7546d3;
+    color: #fff;
+    padding: 5px;
+
+}

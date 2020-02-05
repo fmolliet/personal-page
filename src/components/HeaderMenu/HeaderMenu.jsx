@@ -1,34 +1,35 @@
 import Link from 'next/link';
+import style from './header.module.css';
 
 const HeaderMenu = () =>{
     return (
-        <div className="menu">
-            <h1 className="titulo">Fmolliet()</h1>
-            <div className="options">
+        <nav className={style.menu}>
+            <h1 className={style.titulo}>Fmolliet()</h1>
+            <div className={style.options }>
                 <ul className="buttoms">
                     <li>
                         <Link href="/">   
-                        <a className="buttom">Home</a>
+                        <a className={style.button}>Home</a>
                         </Link>
                     </li>
                     <li>
                         <Link href="/about">
-                        <a className="buttom">About</a>
+                        <a className={style.button}>About</a>
                         </Link>
                     </li>
                     <li>
                         <Link href="/articles">
-                        <a className="buttom">Articles</a>
+                        <a className={style.button}>Articles</a>
                         </Link>
                     </li>
                     <li>
                         <Link href="/users">
-                        <a className="buttom">Usuários</a>
+                        <a className={style.button}>Usuários</a>
                         </Link>
                     </li>
                 </ul>
             </div>
-        </div>
+        </nav>
     );
 }
 

@@ -1,0 +1,28 @@
+.menu {
+    display: flex;
+    flex-direction: initial;
+    width: 100%;
+    background: #c5c5c5;
+    border-radius: 5px;
+
+    min-width: 700px;
+    font-family: Roboto, sans-serif;
+}
+
+.button {
+    color: #575757;
+
+}
+
+.button:hover {
+    color: #2626ff;
+    transition: 0.5;
+}
+
+.titulo {
+    margin: 20px 20px;
+}
+
+.options {
+    padding-left: 20px;
+}
