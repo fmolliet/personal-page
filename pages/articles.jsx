@@ -28,8 +28,12 @@ const Articles = () => {
     return (
         <>
             <HeaderMenu />
+            <div className="main">
+
+            
             <div className={styles.texto}>
                 {artigos.map( artigo  => (<Article artigo={artigo}/>) )}
+            </div>
             </div>
         </>
     );

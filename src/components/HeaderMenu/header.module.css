@@ -1,13 +1,14 @@
-.menu {
+.menu  {
     display: flex;
     flex-direction: initial;
     width: 100%;
-    background: #c5c5c5;
-    border-radius: 5px;
-
+    background: #f8f9fa;
+    border-radius: 10px;
     min-width: 700px;
     font-family: Roboto, sans-serif;
 }
+
+
 
 .button {
     color: #575757;
@@ -20,6 +21,7 @@
 }
 
 .titulo {
+    color: #575757;
     margin: 20px 20px;
 }
 

@@ -1,5 +1,6 @@
 import React from 'react';
 import HeaderMenu from '../src/components/HeaderMenu';
+import styles from '../src/styles/about.module.css';
 import SkillBar from '../src/components/SkillBar';
 
 const About = () =>{
@@ -13,19 +14,22 @@ const About = () =>{
     return(
         <>
         <HeaderMenu />
-        A sobre eu:
-        <div className="aboutme">
-
-        </div>
-        <br />
-        <div className="aboutskills">
-            <SkillBar skill={skill} />
-        </div>
+        <div className="main">
+            <div className={styles.about}>
         
-        <div className="aboutformation">
+                <p className="aboutme">
+                A sobre eu:
+                </p>
+                <br />
+                <div className="aboutskills">
+                    <SkillBar skill={skill} />
+                </div>
+                
+                <div className="aboutformation">
 
+                </div>
+            </div>
         </div>
-            
         </>
     );
 }

@@ -1,10 +1,16 @@
-import React from 'react';
-
+import HeaderMenu from '../src/components/HeaderMenu';
 
 const Projects = () => {
     return (
-        <>
-            projetos 
+        <>  
+            <HeaderMenu />
+            <div className="main">
+                Pagina dos projetos
+            </div>
+            
+        
         </>
     );
 }
+
+export default Projects;

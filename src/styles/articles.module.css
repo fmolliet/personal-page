@@ -1,7 +1,20 @@
+/*
 .texto {
-    display: flex;
-    flex-direction: initial;
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
     align-items: initial;
     margin: 10px 20px;
     flex-wrap: wrap;
+    min-width: 300px;
+}*/
+.texto {
+
+display: flex;
+  flex-direction: row;
+  align-items: flex-start;
 }
+@media (max-width: 650px) {
+    .texto ul {
+      grid-template-columns: 1fr;
+    }
+  }
