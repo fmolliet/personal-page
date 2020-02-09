@@ -1,8 +1,7 @@
 import React from 'react';
 import HeaderMenu from '../src/components/HeaderMenu';
-import styles from '../src/styles/articles.module.css';
 import Article from '../src/components/Article';
-import Main from '../src/components/Main';
+
 
 const Articles = () => {
     const artigos = [
@@ -30,9 +29,9 @@ const Articles = () => {
         <>
             <HeaderMenu />
 
-            <Main>
+            <div className="main">
             {artigos.map( artigo  => (<Article artigo={artigo}/>) )}
-            </Main>
+            </div>
 
         </>
     );
