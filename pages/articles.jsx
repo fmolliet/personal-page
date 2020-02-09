@@ -2,6 +2,7 @@ import React from 'react';
 import HeaderMenu from '../src/components/HeaderMenu';
 import styles from '../src/styles/articles.module.css';
 import Article from '../src/components/Article';
+import Main from '../src/components/Main';
 
 const Articles = () => {
     const artigos = [
@@ -28,13 +29,11 @@ const Articles = () => {
     return (
         <>
             <HeaderMenu />
-            <div className="main">
 
-            
-            <div className={styles.texto}>
-                {artigos.map( artigo  => (<Article artigo={artigo}/>) )}
-            </div>
-            </div>
+            <Main>
+            {artigos.map( artigo  => (<Article artigo={artigo}/>) )}
+            </Main>
+
         </>
     );
 }
