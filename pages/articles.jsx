@@ -33,6 +33,7 @@ const Articles = () => {
             <Main>
             {artigos.map( artigo  => (<Article artigo={artigo}/>) )}
             </Main>
+
         </>
     );
 }

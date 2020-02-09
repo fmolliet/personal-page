@@ -16,14 +16,22 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+.main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 30px 30px;
+}
+
 /* CONFIGURAÇÃO PARA TIRAR VALORES PADRAO*/
 
 body, input, button {
   font-family: Roboto, sans-serif;
+  
 }
 
 
 a {
+  
     display: contents;
     text-decoration: none;
     text-decoration-style: none;
