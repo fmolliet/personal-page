@@ -1,9 +1,10 @@
 .artigo {
     min-width: 160px;
+    max-width: 300px;
     flex: 1 0 25%;
     background: #eeeeee;
     border-radius: 5px ;
-    min-height: 75px;
+    min-height: 90px;
     display: block;
     margin: 5px;
     padding: 5px 15px; 

@@ -11,7 +11,7 @@ const Article = ( { artigo } ) => {
             <p className="techs">
                 { artigo.techs.map( tech => (
                     <>
-                    <Link href={`/articles-${tech}`} >
+                    <Link href={`/articles/${tech}`} >
                         <a className="tech">{tech}  </a>
                     </Link>
                     </>
