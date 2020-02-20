@@ -4,3 +4,4 @@ env.config.js
 .env.testing
 next.config.js
 .next
+out/
