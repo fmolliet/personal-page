@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
 
-/* CONFIGURAÇÃO PARA TIRAR VALORES PADRAO*/
+/* CONFIGURAï¿½ï¿½O PARA TIRAR VALORES PADRAO*/
 * {
   margin: 0;
   padding: 0;
@@ -20,9 +20,11 @@ body {
   max-width: 1200px;
   margin: 0 auto;
   padding: 30px 30px;
+  margin-bottom: 100px;
+  min-height: 100%;
 }
 
-/* CONFIGURAÇÃO PARA TIRAR VALORES PADRAO*/
+/* CONFIGURAï¿½ï¿½O PARA TIRAR VALORES PADRAO*/
 
 body, input, button {
   font-family: Roboto, sans-serif;
@@ -50,3 +52,14 @@ li {
     display: inline-block;
 }
 
+svg {
+ 
+    margin-left: 10px;
+}
+
+.center {
+    text-align: center;
+    padding-left:25%;
+    padding-right:25%;
+    position: sticky;
+}

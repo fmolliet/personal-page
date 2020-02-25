@@ -1,0 +1,40 @@
+.container_fluid {
+    text-align: center;
+    padding-left:25%;
+    padding-right:25%;
+    min-width: 400px;
+    color: #6c757d;
+    bottom: 50px;
+    position: sticky;
+}
+
+.medias {
+    
+    
+    display: flex;
+    
+}
+
+.icons {
+    padding: 3px;
+    margin-left: 2px;
+}
+
+.github:hover {
+    color: #333333;
+}
+
+
+.linkedin:hover {
+    color: #007bb5;
+}
+
+
+.email:hover {
+    color: #db4437;
+}
+
+
+.medium:hover {
+    color: #00ab6c;
+}

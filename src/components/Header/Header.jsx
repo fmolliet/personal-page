@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import style from './header.module.css';
 
-const HeaderMenu = () =>{
+const Header = () =>{
     return (
         <nav className={style.menu}>
              <Link href="/"> 
@@ -33,4 +33,4 @@ const HeaderMenu = () =>{
     );
 }
 
-export default HeaderMenu;
+export default Header;

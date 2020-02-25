@@ -1,6 +1,7 @@
 import { useRouter } from 'next/router'
 import styles from '../../../src/styles/articles.module.css';
-import HeaderMenu from '../../../src/components/HeaderMenu';
+import Header from '../../../src/components/Header';
+import Footer from '../../../src/components/Footer';
 import Article from '../../../src/components/Article';
 import artigos from '../data';
 
@@ -15,13 +16,14 @@ function ArticleTech() {
 
     return (
         <>
-        <HeaderMenu />
+        <Header />
         <div className="main">
             <div className="techName">Artigos encontrados com {tech} :</div>
             <div className={styles.texto}>
                 {artigos_filtrados.map( artigo  => (<Article artigo={artigo}/>) )}
             </div>
         </div>
+        <Footer />
         </>
     )
 }
